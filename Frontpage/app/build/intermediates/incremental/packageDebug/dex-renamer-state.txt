@@ -1,0 +1,7 @@
+#Sat Dec 03 15:24:35 BRST 2016
+base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f2f1f1ad78a63c584471f9395d1109fc6ef80e8e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5fc9dd52540183683b28dfcbc47c012fed076ba/classes.dex
+base.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5fc9dd52540183683b28dfcbc47c012fed076ba
+file.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f2f1f1ad78a63c584471f9395d1109fc6ef80e8e/classes.dex

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/src/main/res/drawable-hdpi/icon.png"
+    }
+]
