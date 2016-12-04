@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Sat Dec 03 15:44:25 BRST 2016
+#Sun Dec 04 16:36:36 BRST 2016
 1.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 2.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 3.set=ANDROID_RESOURCE
 2.set=ANDROID_RESOURCE
@@ -12,4 +12,4 @@ count=4
 0.set=ANDROID_RESOURCE
 0.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 3.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
-0.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+0.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/resources.arsc

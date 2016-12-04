@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Frontpage</string>
+    <string name="button_name">botao</string>
     <string name="hello">Hello World, Main!</string>
 </resources>

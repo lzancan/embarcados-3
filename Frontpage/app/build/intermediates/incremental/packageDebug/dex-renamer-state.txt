@@ -1,7 +1,7 @@
-#Sat Dec 03 15:24:35 BRST 2016
-base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f2f1f1ad78a63c584471f9395d1109fc6ef80e8e
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5fc9dd52540183683b28dfcbc47c012fed076ba/classes.dex
-base.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5fc9dd52540183683b28dfcbc47c012fed076ba
-file.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/leitor_rss/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f2f1f1ad78a63c584471f9395d1109fc6ef80e8e/classes.dex
+#Sun Dec 04 16:36:43 BRST 2016
+base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9edb851d1ab6e10712d9b0770deea751726f4384/classes.dex
+base.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9edb851d1ab6e10712d9b0770deea751726f4384
+file.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc/classes.dex

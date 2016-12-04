@@ -5,15 +5,16 @@
     android:gravity="center_horizontal"
 	android:orientation="vertical">
 
-	<TextView android:text="Frontpage"
+	<TextView android:text="@string/app_name"
 	android:id="@+id/TextView01" android:layout_width="wrap_content" 
 	android:layout_height="wrap_content"/>
 
-	<ListView android:layout_width="fill_parent" android:layout_height="fill_parent" 
-	android:id="@+id/ListView01" android:layout_weight="1"></ListView>
+	<ListView android:layout_width="fill_parent"
+		android:id="@+id/ListView01" android:layout_weight="1"
+		android:layout_height="0dp"></ListView>
 	
 	
-	<Button android:text="Ler rss" android:id="@+id/Button01" 
+	<Button android:text="@string/button_name" android:id="@+id/Button01"
 	android:layout_width="wrap_content" 
 	android:layout_height="wrap_content"/>
 </LinearLayout>
