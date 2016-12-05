@@ -37,6 +37,7 @@ public class Main extends Activity {
         
         //pegando instancia do cabecalho
         cabecalho = (TextView) findViewById(R.id.TextView01);
+		cabecalho.setText("Leitor de Conteúdo");
         
         //click da listview
         final ListView listView = (ListView) findViewById(R.id.ListView01);
@@ -59,16 +60,39 @@ public class Main extends Activity {
         
         //Button Click
         lerConteudo = (Button) findViewById(R.id.Button01);
+		lerConteudo.setText("Informar Contato");
+		lerConteudo.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				lerConteudo.setText("Selecione Link");
+				listView.setOnItemClickListener(new OnItemClickListener(){
+
+					@Override
+					public void onItemClick(AdapterView<?> parent, View view, int position,
+											long id) {
+
+						Item item = itemList.get(position);
+						String sendurl = item.getUrl();
+
+						Intent sendIntent = new Intent();
+						sendIntent.setAction(Intent.ACTION_SEND);
+						sendIntent.putExtra(Intent.EXTRA_TEXT, sendurl);
+						sendIntent.setType("text/plain");
+						startActivity(sendIntent);
+					}
+				});
+			}
+		});
         //lerConteudo.setOnClickListener(new OnClickListener(){
 
 			//@Override
 			//public void onClick(View v) {
 				try {
-					
+
 					String url = "http://g1.globo.com/dynamo/brasil/rss2.xml";
 					//http://www.ufrgs.br/relinter/portugues/menugeral/noticias/RSS
 					//http://g1.globo.com/dynamo/brasil/rss2.xml
-					
+
 					DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 					DocumentBuilder db = dbf.newDocumentBuilder();
 					Document doc = db.parse(url);
@@ -112,4 +136,27 @@ public class Main extends Activity {
         
         
     }
+	@Override
+	public void onResume() {
+		super.onResume();
+
+		//click da listview
+		final ListView listView = (ListView) findViewById(R.id.ListView01);
+		listView.setOnItemClickListener(new OnItemClickListener(){
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position,
+									long id) {
+
+				Item item = itemList.get(position);
+
+				Intent intent = new Intent(Intent.ACTION_VIEW);
+
+				intent.setData(Uri.parse(item.getUrl()));
+
+				startActivity(intent);
+			}
+		});
+		lerConteudo.setText("Informar Contato");
+	}
 }
