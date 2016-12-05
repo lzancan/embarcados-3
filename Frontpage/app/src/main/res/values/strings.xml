@@ -3,4 +3,9 @@
     <string name="hello">Hello World, Main!</string>
     <string name="app_name">Frontpage</string>
     <string name="button_name">botao</string>
+
+    <string name="pref_sync">Preferencias</string>
+    <string name="pref_sync_summ">Preferencias Summ</string>
+    <string name="pref_syncConnectionType">Outra Coisa</string>
+    <string name="pref_syncConnectionTypes_default">pref_syncConnectionTypes_default</string>
 </resources>

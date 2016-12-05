@@ -949,8 +949,15 @@ containing a value of this type.
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f080002;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f080042;
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f080043;
         public static final int TextAppearance_AppCompat_Base_SearchResult=0x7f080044;

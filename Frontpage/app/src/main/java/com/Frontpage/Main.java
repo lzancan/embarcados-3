@@ -13,6 +13,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -24,14 +25,23 @@ import android.widget.AdapterView.OnItemClickListener;
 
 import com.Frontpage.model.Item;
 
+import com.Frontpage.SettingsActivity;
+import android.preference.PreferenceActivity;
+import android.preference.Preference;
+import android.preference.PreferenceManager;
+import android.content.SharedPreferences;
+
 public class Main extends Activity {
+	private static final int RESULT_SETTINGS = 1;
     /** Called when the activity is first created. */
 	public Button lerConteudo;
+	public Button setarSites;
 	public TextView cabecalho;
 	public ArrayList<Item> itemList = new ArrayList<Item>();
+	public SettingsActivity settings;
 	
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
@@ -56,7 +66,16 @@ public class Main extends Activity {
 				startActivity(intent);
 			}
 		});
-        
+
+		setarSites = (Button) findViewById(R.id.Button02);
+        setarSites.setText("Configurar Sites");
+		setarSites.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent i = new Intent(getApplicationContext(), SettingsActivity.class);
+				startActivityForResult(i, RESULT_SETTINGS);
+			}
+		});
         
         //Button Click
         lerConteudo = (Button) findViewById(R.id.Button01);
@@ -132,10 +151,37 @@ public class Main extends Activity {
 				
 			//}
        // });
-        
-        
-        
     }
+
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+
+		switch (requestCode) {
+			case RESULT_SETTINGS:
+				showUserSettings();
+				break;
+
+		}
+
+	}
+
+	private void showUserSettings()
+	{
+		SharedPreferences sharedPrefs = PreferenceManager
+				.getDefaultSharedPreferences(this);
+
+		StringBuilder builder = new StringBuilder();
+
+		TextView settingsTextView = (TextView) findViewById(R.id.TextView01);
+
+		settingsTextView.setText(builder.toString());
+
+	}
+
+
+
 	@Override
 	public void onResume() {
 		super.onResume();

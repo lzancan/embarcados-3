@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="96e01c28c0837ac1b444922f98afbe864995b2e5">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc/classes.dex" />
+        sha1="484a5c49afda5db9f49fe2cb74a6caf0a2b9915d">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5ca4ff9ea9442ca50f7ed8d62df0d50194791081">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9edb851d1ab6e10712d9b0770deea751726f4384/classes.dex" />
+        sha1="a59d2c3fa1ee6faedbac637d5086c9b57e44404e">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5/classes.dex" />
     </item>
 
 </items>

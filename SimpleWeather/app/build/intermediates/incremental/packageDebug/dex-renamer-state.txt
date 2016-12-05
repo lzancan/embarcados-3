@@ -1,7 +1,7 @@
-#Sun Dec 04 21:52:40 BRST 2016
-base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5f4b92768cede00331d380e6543293624acf9117
+#Mon Dec 05 17:19:57 BRST 2016
+base.0=/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d983d75ed2aed6bdfaa07776c32a341fe6463dfa
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b816ce64b42b6726fe92483deaff70d247be7ffc/classes.dex
-base.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b816ce64b42b6726fe92483deaff70d247be7ffc
-file.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5f4b92768cede00331d380e6543293624acf9117/classes.dex
+file.1=/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9288ab60d69d8b43f301ffd4c5fb57ea83222676/classes.dex
+base.1=/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9288ab60d69d8b43f301ffd4c5fb57ea83222676
+file.0=/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d983d75ed2aed6bdfaa07776c32a341fe6463dfa/classes.dex

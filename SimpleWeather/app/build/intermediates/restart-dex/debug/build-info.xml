@@ -1,57 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86_64,x86"
-    api-level="25"
-    density="xhdpi"
+    api-level="23"
+    density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="3215091626524"
-    token="1966129403514333385"
-    verifier="COMPATIBLE" >
+    timestamp="536186793527585"
+    token="-7489483903571502497"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="861" />
+        duration="354" />
     <task
         name="instant-run-dex"
-        duration="2423" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="130" />
+        duration="45" />
     <task
         name="verifier"
-        duration="50" />
+        duration="3" />
 
     <artifact
-        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="2268285408481"
+        timestamp="536186793527585"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/outputs/apk/app-debug.apk"
+            location="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="3060594438788"
-        verifier="FIELD_TYPE_CHANGE" >
-        <artifact
-            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="3215091626524"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

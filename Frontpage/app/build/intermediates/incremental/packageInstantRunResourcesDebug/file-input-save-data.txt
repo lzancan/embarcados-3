@@ -1,15 +1,18 @@
 #Internal package file, do not edit.
-#Sun Dec 04 23:40:48 BRST 2016
-1.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/resources.arsc
-2.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
+#Mon Dec 05 20:48:23 BRST 2016
+1.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
+1.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+4.set=ANDROID_RESOURCE
+2.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 3.set=ANDROID_RESOURCE
 2.set=ANDROID_RESOURCE
-2.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
-count=4
+2.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/preferences.xml
+count=5
 1.set=ANDROID_RESOURCE
-3.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
+3.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 0.set=ANDROID_RESOURCE
-0.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-3.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
-0.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+0.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+4.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_

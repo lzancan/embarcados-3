@@ -3,183 +3,183 @@
 
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_f3fe33c271665d883e0930f67d2db1a979f3fbe0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_fcbd186f3ba08b2c51fb07b12b34daf52748180d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_974e5f69c8d5116b97fb6fc86b2dbd8aa6ec08a1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_5aa6280b9263ba0d0dbee997a2b34a49bb4efc30/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="228a1583099fc7910d887882ac3ed7c48b37d067">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7af5c6aea2bc04259ec70ff98bba7297f090e513/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_7378cc1f64a2509a82168120f930d8a9259c9f49/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_d0d76b23c0faa16840a89d68535e7e54b003a315/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Programas/Android/SDK/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_94f4d486af311c8e0813efeaaada07300f850a48/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_3ce24b104ceb5b1ed639b7af18943ce2a5de1586/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_57432958f9d1f8b1765b881717b216891cb6e602/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_eade64bf90263dd249db789f59d8211255af15a9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_ec9e6b0b609a562091b3d2d324f525ff751b2a1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_35f8a5dd4febff06953b9c16a589ea9f0a724422/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_c42f5c78c0b127b3f31919bccc9aa7fc90da0f9d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_08e8fa036f3f065330af13a7a4932780fd092fa2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_90ed1297deb8331ca275d378b00f1d4ace8599ca/classes.dex" />
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_e69513956887af3752b6753ac063a49242cd55c6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_78b589c35f23adb6e005b2f7316f4068bd5ef82f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_fbbfa76f07646b12c46a19f51caeea78450fce20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_c32290f765aeb705589d1c0a60f65e4312cf8480/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_e8dc1c9e126b0b67d44e8633e5a75edd934328f7/classes.dex" />
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_6bf019eb64ef88ce8c6c9b5c12fb8402c59d49d5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_7125856dc1d1ca1adcdefdc8fdebdd2b946b034e/classes.dex" />
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_0c16f368d74aea4a778de7ae7546631a87468606/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_3aa7eb4996156145ef37cf2cf82ad04f14a64018/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_d45310a0cea9ff96544cc6735dceb0bc606ce908/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_a30830ce554314ce69b572c2efef3e79d6e53abf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_30b63869d8b6c7ca4c3d9578c5fe39b53a5ea749/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_e4352ef22746f786f01ebe650860400e7f8617f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_1b0a80cbdfb51de17e3a2a2dd9d5766a051293ed/classes.dex" />
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_d97df0fa3b9852ca1a319da63f9a626650c2f2ec/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="090bf34aa81881f36b8f24c066a235c145553b61">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_afb78d6ea4bb963359503f0d8b50ae95d53ee4e9/classes.dex" />
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_45760f5d7cbc1dfb76ea9a58d15450810b86e72c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_10e923197a804248a05f453bf6a9ace89ea0a28d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0f31bd2b334c6527d68a0801465863e2d82bca28">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2c301955bdc4ff2d01c2779f1fbfa958bea8c1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_1c9fe4c001b95c03e4ad2e2b470311efb63b3452/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ad6fb5705dce860141c49b45fce6b33dc561d93f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_9460ae5af11530db1dba82ca2a862a0ff99306b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_458766be8791dba97974234b90622c222f30c8b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee35290a8b773d779c2e52bd32fe3787fb6f0b23">
+        <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fdeeb78d550c91d9cfee2c5fbb76a0cb75b46bab/classes.dex" />
     </item>
 
 </items>

@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/res/merged/debug/color/abc_search_url_text_holo.xml",
-        "source": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/color/abc_search_url_text_holo.xml"
+        "merged": "/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/res/merged/debug/color/abc_search_url_text_holo.xml",
+        "source": "/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/color/abc_search_url_text_holo.xml"
     }
 ]

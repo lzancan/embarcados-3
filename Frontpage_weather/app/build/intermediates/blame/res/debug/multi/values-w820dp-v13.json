@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/src/main/res/values-w820dp/dimens.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/src/main/res/values-w820dp/dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

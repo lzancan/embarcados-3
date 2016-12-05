@@ -1,7 +1,7 @@
-#Mon Dec 05 13:00:23 BRST 2016
-base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_afb78d6ea4bb963359503f0d8b50ae95d53ee4e9
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7af5c6aea2bc04259ec70ff98bba7297f090e513/classes.dex
-base.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7af5c6aea2bc04259ec70ff98bba7297f090e513
-file.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_afb78d6ea4bb963359503f0d8b50ae95d53ee4e9/classes.dex
+#Mon Dec 05 17:10:50 BRST 2016
+base.0=/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2c301955bdc4ff2d01c2779f1fbfa958bea8c1c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fdeeb78d550c91d9cfee2c5fbb76a0cb75b46bab/classes.dex
+base.1=/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fdeeb78d550c91d9cfee2c5fbb76a0cb75b46bab
+file.0=/home/nadal/Downloads/embarcados-3/Frontpage_weather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2c301955bdc4ff2d01c2779f1fbfa958bea8c1c/classes.dex

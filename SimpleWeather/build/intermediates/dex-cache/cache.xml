@@ -3,39 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jar="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-19.1.0_29c2c7cd34756902eb07cd0905feb2a690aeaae9/classes.dex" />
+        sha1="8835c204bcda98873a46341d1c405129d9d05348">
+        <dex dex="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d983d75ed2aed6bdfaa07776c32a341fe6463dfa/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c484a75c1a20b96234a2e46d1e31cba8e527cc66">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b816ce64b42b6726fe92483deaff70d247be7ffc/classes.dex" />
+        sha1="d99810d2bd9d520e55f0caa552c7391eb0ba6795">
+        <dex dex="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9288ab60d69d8b43f301ffd4c5fb57ea83222676/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Programas/Android/SDK/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_a5df06caee465c2372ea98798d762d040bb999a8/classes.dex" />
+        <dex dex="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_e3727c20cef8b1ac8b518610d94da343436a419a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="1bc55a57411e5b81f243a405d7140d0f1aae6b01">
-        <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5f4b92768cede00331d380e6543293624acf9117/classes.dex" />
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/home/nadal/Downloads/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-19.1.0_a98fcf82d011ee353d113eda7075b2d2e380dc84/classes.dex" />
     </item>
 
 </items>
