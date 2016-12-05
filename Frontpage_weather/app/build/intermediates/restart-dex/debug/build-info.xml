@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="25"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="15357076337565"
+    token="-8159191322082896044"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2454" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="582" />
+    <task
+        name="verifier"
+        duration="54" />
+
+    <artifact
+        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="15357076337565"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage_weather/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

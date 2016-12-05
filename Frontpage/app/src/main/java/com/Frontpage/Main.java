@@ -72,7 +72,7 @@ public class Main extends Activity {
 					DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 					DocumentBuilder db = dbf.newDocumentBuilder();
 					Document doc = db.parse(url);
-                    lerConteudo.setText("botaoloco");
+                    //lerConteudo.setText("botaoloco");
 					NodeList listItem = doc.getElementsByTagName("item");
 
 					String[] arrayTitles = new String[listItem.getLength()];
@@ -100,7 +100,7 @@ public class Main extends Activity {
 									android.R.layout.simple_list_item_1, arrayTitles)
 					);
 					
-					cabecalho.setText("Leitor de conteudo RSS - Finalizado");
+					//cabecalho.setText("Leitor de conteudo RSS - Finalizado");
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);
