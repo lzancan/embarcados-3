@@ -1,0 +1,7 @@
+#Sun Dec 04 21:52:40 BRST 2016
+base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5f4b92768cede00331d380e6543293624acf9117
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b816ce64b42b6726fe92483deaff70d247be7ffc/classes.dex
+base.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b816ce64b42b6726fe92483deaff70d247be7ffc
+file.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/SimpleWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5f4b92768cede00331d380e6543293624acf9117/classes.dex

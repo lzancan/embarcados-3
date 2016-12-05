@@ -5,30 +5,30 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="9146046909194"
+    timestamp="6812543278437"
     token="-9097640557764214525"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="364" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="539" />
+        duration="96" />
     <task
         name="verifier"
-        duration="31" />
+        duration="6" />
 
     <artifact
         location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="9146046909194"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="6812543278437"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
