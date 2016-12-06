@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="pref_syncConnectionTypes_entries">pref_syncConnectionTypes_entries</array>
+    <array name="pref_syncConnectionTypes_values">pref_syncConnectionTypes_values</array>
+
+</resources>

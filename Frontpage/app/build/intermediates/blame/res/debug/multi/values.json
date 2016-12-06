@@ -1,17 +1,55 @@
 [
     {
-        "outputFile": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 46,
-                    "endOffset": 97
+                    "endColumn": 91,
+                    "endOffset": 142
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/arrays.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 91,
+                        "endOffset": 143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 89,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/arrays.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 148,
+                        "endColumn": 89,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 46,
+                    "endOffset": 279
+                },
+                "from": {
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -23,14 +61,14 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 102,
+                    "startOffset": 284,
                     "endColumn": 45,
-                    "endOffset": 143
+                    "endOffset": 325
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -42,14 +80,14 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 148,
+                    "startOffset": 330,
                     "endColumn": 52,
-                    "endOffset": 196
+                    "endOffset": 378
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -61,14 +99,14 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 201,
+                    "startOffset": 383,
                     "endColumn": 50,
-                    "endOffset": 247
+                    "endOffset": 429
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -80,14 +118,14 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 252,
+                    "startOffset": 434,
                     "endColumn": 63,
-                    "endOffset": 311
+                    "endOffset": 493
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -99,14 +137,14 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 316,
+                    "startOffset": 498,
                     "endColumn": 93,
-                    "endOffset": 405
+                    "endOffset": 587
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -118,14 +156,14 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 410,
+                    "startOffset": 592,
                     "endColumn": 60,
-                    "endOffset": 466
+                    "endOffset": 648
                 },
                 "from": {
-                    "file": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
+                    "file": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

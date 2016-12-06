@@ -1,7 +1,7 @@
-#Tue Dec 06 00:04:29 BRST 2016
-base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc
+#Tue Dec 06 09:46:52 BRST 2016
+base.0=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9edb851d1ab6e10712d9b0770deea751726f4384/classes.dex
-base.1=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9edb851d1ab6e10712d9b0770deea751726f4384
-file.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc/classes.dex
+file.1=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a/classes.dex
+base.1=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a
+file.0=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5/classes.dex

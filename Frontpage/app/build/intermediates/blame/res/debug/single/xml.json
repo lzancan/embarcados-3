@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/xml/example_appwidget_info.xml",
+        "source": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/xml/example_appwidget_info.xml"
+    },
+    {
+        "merged": "/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/xml/preferences.xml"
+    }
+]

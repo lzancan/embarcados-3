@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="pref_syncConnectionTypes_entries">pref_syncConnectionTypes_entries</array>
+    <array name="pref_syncConnectionTypes_values">pref_syncConnectionTypes_values</array>
     <string name="app_name">Frontpage</string>
     <string name="button_name">botao</string>
     <string name="hello">Hello World, Main!</string>

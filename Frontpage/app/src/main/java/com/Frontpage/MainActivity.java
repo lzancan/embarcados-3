@@ -3,6 +3,7 @@ package com.Frontpage;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -25,7 +26,7 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-//import com.Frontpage.SettingsActivity;
+import com.Frontpage.SettingsActivity;
 
 public class MainActivity extends Activity {
 	private static final int RESULT_SETTINGS = 1;
@@ -71,13 +72,13 @@ public class MainActivity extends Activity {
 
         botaosetarsites = (Button) findViewById(R.id.Button02);
         botaosetarsites.setText("Configurar Sites");
-		/*botaosetarsites.setOnClickListener(new View.OnClickListener() {
+		botaosetarsites.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				Intent i = new Intent(getApplicationContext(), SettingsActivity.class);
 				startActivityForResult(i, RESULT_SETTINGS);
 			}
-		});*/
+		});
 
         //pega id do botao
         botaoinformar = (Button) findViewById(R.id.Button01);
@@ -170,6 +171,8 @@ public class MainActivity extends Activity {
 	{
 		SharedPreferences sharedPrefs = PreferenceManager
 				.getDefaultSharedPreferences(this);
+
+        Editor editor = sharedPrefs.edit();
 
 		StringBuilder builder = new StringBuilder();
 

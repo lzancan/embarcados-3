@@ -21,7 +21,24 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name="com.Frontpage.SettingsActivity"
+            android:label="@string/pref_sync">
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+
     </application>
+
+    <receiver android:name="ExampleAppWidgetProvider" >
+        <intent-filter>
+            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        </intent-filter>
+        <meta-data android:name="android.appwidget.provider"
+            android:resource="@xml/example_appwidget_info" />
+    </receiver>
 
 
 
