@@ -1,153 +1,156 @@
 package com.Frontpage;
 
-import java.util.ArrayList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
 
 import com.Frontpage.model.Item;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+
+import java.util.ArrayList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
 //import com.Frontpage.SettingsActivity;
-import android.content.SharedPreferences;
 
 public class MainActivity extends Activity {
 	private static final int RESULT_SETTINGS = 1;
     /** Called when the activity is first created. */
-	public Button lerConteudo;
-	public Button setarSites;
-	public TextView cabecalho;
-	public ArrayList<Item> itemList = new ArrayList<Item>();
+	public Button botaoinformar;
+	public Button botaosetarsites;
+	public TextView textviewcabecalho;
+	public ArrayList<Item> arrayitemlist = new ArrayList<Item>();
 	//public SettingsActivity settings;
+    public String URL;
 	
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        
-        //pegando instancia do cabecalho
-        cabecalho = (TextView) findViewById(R.id.TextView01);
-		cabecalho.setText("Leitor de Conteúdo");
-        
+        setContentView(R.layout.main_activity);
+
+        //pega a instancia do textviewcabecalho
+        textviewcabecalho = (TextView) findViewById(R.id.TextView01);
+        textviewcabecalho.setText("Notícias");
+
         //click da listview
         final ListView listView = (ListView) findViewById(R.id.ListView01);
-        listView.setOnItemClickListener(new OnItemClickListener(){
+        listView.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position,
+                                    long id) {
 
-			@Override
-			public void onItemClick(AdapterView<?> parent, View view, int position,
-					long id) {
-				
-				Item item = itemList.get(position);
-				
-				Intent intent = new Intent(Intent.ACTION_VIEW);
-				
-				intent.setData(Uri.parse(item.getUrl()));
-				
-				startActivity(intent);
-			}
-		});
+                Item item = arrayitemlist.get(position);
 
-		setarSites = (Button) findViewById(R.id.Button02);
-        setarSites.setText("Configurar Sites");
-		setarSites.setOnClickListener(new View.OnClickListener() {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+
+                intent.setData(Uri.parse(item.getUrl()));
+
+                startActivity(intent);
+            }
+        });
+
+        URL = "http://g1.globo.com/dynamo/rs/rio-grande-do-sul/rss2.xml";
+        // abre a janela das notícias
+        OpenNews(URL, listView);
+        URL = "http://g1.globo.com/dynamo/economia/rss2.xml";
+        OpenNews(URL, listView);
+
+        botaosetarsites = (Button) findViewById(R.id.Button02);
+        botaosetarsites.setText("Configurar Sites");
+		/*botaosetarsites.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				Intent i = new Intent(getApplicationContext(), SettingsActivity.class);
 				startActivityForResult(i, RESULT_SETTINGS);
 			}
-		});
-        
-        //Button Click
-        lerConteudo = (Button) findViewById(R.id.Button01);
-		lerConteudo.setText("Informar Contato");
-		lerConteudo.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				lerConteudo.setText("Selecione Link");
-				listView.setOnItemClickListener(new OnItemClickListener(){
+		});*/
 
-					@Override
-					public void onItemClick(AdapterView<?> parent, View view, int position,
-											long id) {
+        //pega id do botao
+        botaoinformar = (Button) findViewById(R.id.Button01);
+        //muda texto do botao
+        botaoinformar.setText("Informar Contato");
+        //clicklistener do botao
+        botaoinformar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                botaoinformar.setText("Selecione Link");
+                listView.setOnItemClickListener(new OnItemClickListener() {
 
-						Item item = itemList.get(position);
-						String sendurl = item.getUrl();
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position,
+                                            long id) {
 
-						Intent sendIntent = new Intent();
-						sendIntent.setAction(Intent.ACTION_SEND);
-						sendIntent.putExtra(Intent.EXTRA_TEXT, sendurl);
-						sendIntent.setType("text/plain");
-						startActivity(sendIntent);
-					}
-				});
-			}
-		});
-        //lerConteudo.setOnClickListener(new OnClickListener(){
+                        Item item = arrayitemlist.get(position);
+                        String sendurl = item.getUrl();
 
-			//@Override
-			//public void onClick(View v) {
-				try {
+                        Intent sendIntent = new Intent();
+                        sendIntent.setAction(Intent.ACTION_SEND);
+                        sendIntent.putExtra(Intent.EXTRA_TEXT, sendurl);
+                        sendIntent.setType("text/plain");
+                        startActivity(sendIntent);
+                    }
+                });
+            }
+        });
 
-					String url = "http://g1.globo.com/dynamo/brasil/rss2.xml";
-					//http://www.ufrgs.br/relinter/portugues/menugeral/noticias/RSS
-					//http://g1.globo.com/dynamo/brasil/rss2.xml
-
-					DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-					DocumentBuilder db = dbf.newDocumentBuilder();
-					Document doc = db.parse(url);
-                    //lerConteudo.setText("botaoloco");
-					NodeList listItem = doc.getElementsByTagName("item");
-
-					String[] arrayTitles = new String[listItem.getLength()];
-					
-					for(int x = 0; x < listItem.getLength(); x++){
-						//titulo
-						String title = listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue();
-						
-						//link
-						String link = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue();
-						
-						Item item = new Item();
-						
-						item.setTitle(title);
-						item.setUrl(link);
-						
-						arrayTitles[x] = item.getTitle();
-						
-						itemList.add(item);
-					}
-					
-
-					listView.setAdapter(
-							new ArrayAdapter<String>(getBaseContext(), 
-									android.R.layout.simple_list_item_1, arrayTitles)
-					);
-					
-					//cabecalho.setText("Leitor de conteudo RSS - Finalizado");
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);
-				}
-				
-			//}
-       // });
     }
+    public void OpenNews(String Url,ListView listView) {
+        try {
+            // document builder (parser)
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            Document doc = db.parse(Url);
+
+            NodeList Source = doc.getElementsByTagName("title"); // nome da fonte
+            String SourceName = Source.item(0).getChildNodes().item(0).getNodeValue();
+
+            NodeList listItem = doc.getElementsByTagName("item"); // notícias
+
+            String[] arrayTitles = new String[listItem.getLength()];
+
+            for (int x = 0; x < listItem.getLength(); x++) {
+                //titulo
+                String title = listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue();
+
+                //link
+                String link = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue();
+
+                Item item = new Item();
+
+                item.setTitle(title);
+                item.setUrl(link);
+
+                arrayTitles[x] = item.getTitle();
+
+                arrayitemlist.add(item);
+            }
+
+
+            listView.setAdapter(
+                    new ArrayAdapter<String>(getBaseContext(),
+                            android.R.layout.simple_list_item_1, arrayTitles)
+            );
+
+            textviewcabecalho.setText("Notícias de " + SourceName);
+        } catch (Exception e) {
+            Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);
+        }
+    }
+
 
 
 	@Override
@@ -190,7 +193,7 @@ public class MainActivity extends Activity {
 			public void onItemClick(AdapterView<?> parent, View view, int position,
 									long id) {
 
-				Item item = itemList.get(position);
+				Item item = arrayitemlist.get(position);
 
 				Intent intent = new Intent(Intent.ACTION_VIEW);
 
@@ -199,6 +202,6 @@ public class MainActivity extends Activity {
 				startActivity(intent);
 			}
 		});
-		lerConteudo.setText("Informar Contato");
+		botaoinformar.setText("Informar Contato");
 	}
 }
