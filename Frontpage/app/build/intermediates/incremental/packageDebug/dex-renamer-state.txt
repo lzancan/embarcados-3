@@ -1,7 +1,7 @@
-#Tue Dec 06 09:46:52 BRST 2016
-base.0=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a/classes.dex
-base.1=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a
-file.0=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5/classes.dex
+#Tue Dec 06 09:57:32 BRST 2016
+base.0=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5/classes.dex
+base.1=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5
+file.0=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a/classes.dex

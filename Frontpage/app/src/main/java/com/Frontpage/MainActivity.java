@@ -36,8 +36,8 @@ public class MainActivity extends Activity {
 	public TextView textviewcabecalho;
 	public ArrayList<Item> arrayitemlist = new ArrayList<Item>();
 	//public SettingsActivity settings;
-    public String URL;
-	
+    public String URL = "http://g1.globo.com/dynamo/rs/rio-grande-do-sul/rss2.xml";
+
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,14 +64,13 @@ public class MainActivity extends Activity {
             }
         });
 
-        URL = "http://g1.globo.com/dynamo/rs/rio-grande-do-sul/rss2.xml";
         // abre a janela das notícias
-        OpenNews(URL, listView);
-        URL = "http://g1.globo.com/dynamo/economia/rss2.xml";
+     /*   OpenNews(URL, listView);
+        URL = "http://g1.globo.com/dynamo/economia/rss2.xml";*/
         OpenNews(URL, listView);
 
         botaosetarsites = (Button) findViewById(R.id.Button02);
-        botaosetarsites.setText("Configurar Sites");
+        botaosetarsites.setText("Configurar Site");
 		botaosetarsites.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
@@ -180,6 +179,9 @@ public class MainActivity extends Activity {
 
 		settingsTextView.setText(builder.toString());
 
+        if (sharedPrefs.getString("pref", null) != null)
+            URL = sharedPrefs.getString("pref", null);
+
 	}
 
 
@@ -206,5 +208,6 @@ public class MainActivity extends Activity {
 			}
 		});
 		botaoinformar.setText("Informar Contato");
+        OpenNews(URL, listView);
 	}
 }

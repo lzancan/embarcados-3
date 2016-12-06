@@ -13,10 +13,10 @@
 	<ListView android:layout_width="fill_parent"
 		android:id="@+id/ListView01" android:layout_weight="1"
 		android:layout_height="0dp"></ListView>
-	
-	
+
+
 	<Button android:text="@string/button_name" android:id="@+id/Button01"
-	android:layout_width="wrap_content" 
+	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"/>
 
 	<Button android:text="@string/button_name" android:id="@+id/Button02"
