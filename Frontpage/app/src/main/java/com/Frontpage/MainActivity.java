@@ -1,5 +1,6 @@
 package com.Frontpage;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -110,6 +111,7 @@ public class MainActivity extends Activity {
     }
     public void OpenNews(String Url,ListView listView) {
         try {
+            arrayitemlist.clear();
             // document builder (parser)
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
@@ -180,7 +182,7 @@ public class MainActivity extends Activity {
 		settingsTextView.setText(builder.toString());
 
         if (sharedPrefs.getString("pref", null) != null)
-            URL = sharedPrefs.getString("pref", null);
+            URL = findURL(sharedPrefs.getString("pref", null));
 
 	}
 
@@ -210,4 +212,20 @@ public class MainActivity extends Activity {
 		botaoinformar.setText("Informar Contato");
         OpenNews(URL, listView);
 	}
+@TargetApi(8)
+    private String findURL(String Url){
+    if(!Url.toLowerCase().contains("rss")){
+        try {
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            Document doc = db.parse(Url);
+
+            NodeList Source = doc.getElementsByTagName("rss"); // nome da fonte
+            return Source.item(0).getTextContent();
+        }
+        catch (Exception e) {
+            Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);
+        }}
+        return Url;
+    }
 }
