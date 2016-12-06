@@ -129,7 +129,7 @@ public class MainActivity extends Activity {
 
             for (int x = 0; x < listItem.getLength(); x++) {
                 //titulo
-                String title = listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue();
+                String title = "" + Integer.toString(x+1).concat(". ").concat(listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue());
 
                 //link
                 String link = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue();
