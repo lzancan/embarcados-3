@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 06 10:41:41 BRST 2016
+#Tue Dec 06 12:57:33 BRST 2016
 2.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 5.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/main_activity.xml
 5.set=ANDROID_RESOURCE
@@ -18,11 +18,11 @@ count=9
 1.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 1.set=ANDROID_RESOURCE
 7.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-2.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v3/example_appwidget_info.xml
+2.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
 6.set=ANDROID_RESOURCE
 0.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 8.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-3.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
+3.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v3/example_appwidget_info.xml
 3.set=ANDROID_RESOURCE
 1.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 4.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v12/example_appwidget_info.xml

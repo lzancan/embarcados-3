@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b0ab04aaafdfd5df34d7965283f79b8c62d98745">
+        sha1="9eec23da253d917e22c0b30122d0a4ca59ed03f1">
         <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2f71678843970063bb045145c4456ef57ef461a/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f4475b6979745d385af9b3d4e69a920a0e27fbeb">
+        sha1="7cabdc6ba0c50eb5038be35b6e3f00a31ab791b9">
         <dex dex="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6263610b64f834dbfda0081be730a1af133625d5/classes.dex" />
     </item>
 

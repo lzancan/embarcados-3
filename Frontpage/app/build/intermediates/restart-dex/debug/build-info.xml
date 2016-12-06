@@ -5,47 +5,33 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="606100519757323"
+    timestamp="606846863386323"
     token="-5867005400377076508"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="213" />
+        duration="220" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="62" />
+        duration="61" />
     <task
         name="verifier"
-        duration="11" />
+        duration="2" />
 
     <artifact
-        location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
+        location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="596047366517710"
+        timestamp="606846863386323"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="598695510701365"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="606100519757323"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
