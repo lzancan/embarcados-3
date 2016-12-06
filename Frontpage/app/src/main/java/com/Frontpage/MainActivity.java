@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -38,6 +39,7 @@ public class MainActivity extends Activity {
 	public ArrayList<Item> arrayitemlist = new ArrayList<Item>();
 	//public SettingsActivity settings;
     public String URL = "http://g1.globo.com/dynamo/rs/rio-grande-do-sul/rss2.xml";
+    public int maxQuant = 0;
 
     @Override
     public void onCreate(final Bundle savedInstanceState) {
@@ -68,7 +70,7 @@ public class MainActivity extends Activity {
         // abre a janela das notícias
      /*   OpenNews(URL, listView);
         URL = "http://g1.globo.com/dynamo/economia/rss2.xml";*/
-        OpenNews(URL, listView);
+        OpenNews(URL, listView, maxQuant);
 
         botaosetarsites = (Button) findViewById(R.id.Button02);
         botaosetarsites.setText("Trocar Assunto");
@@ -110,7 +112,7 @@ public class MainActivity extends Activity {
 
     }
     @TargetApi(9)
-    public void OpenNews(String Url,ListView listView) {
+    public void OpenNews(String Url,ListView listView, int maxQuant) {
         try {
             // document builder (parser)
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -126,6 +128,12 @@ public class MainActivity extends Activity {
 
             if (listItem.getLength() > 0)
                 arrayitemlist.clear();
+
+         /*   if (maxQuant <= 0)
+                null;//maxQuant = listItem.getLength();*/
+
+            listView.setBackgroundColor(Color.LTGRAY);
+           // System.out.println(maxQuant);
 
             for (int x = 0; x < listItem.getLength(); x++) {
                 //titulo
@@ -215,7 +223,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		botaoinformar.setText("Informar Contato");
-        OpenNews(URL, listView);
+        OpenNews(URL, listView, maxQuant);
 	}
 @TargetApi(8)
     private String findURL(String Url){

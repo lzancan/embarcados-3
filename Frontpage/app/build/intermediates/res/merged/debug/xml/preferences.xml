@@ -4,6 +4,12 @@
         android:key="pref"
         android:title="@string/pref_sync"
         android:summary="@string/pref_sync_summ" />
+
+    <EditTextPreference
+         android:key="num"
+         android:title="Quantidade"
+         android:summary="Determina a quantidade máxima de ítens por fonte" />
+
     <!--ListPreference
         android:dependency="pref_sync"
         android:key="pref_syncConnectionType"
