@@ -1,43 +1,71 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:2:1-20:12
 	package
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:3:7-30
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:5:7-32
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:6:7-32
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:4:7-30
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:5:7-30
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:3:7-65
 application
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:6:5-15:19
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:8:5-17:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:6:48-80
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:8:48-80
 	android:icon
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:6:18-47
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:8:18-47
 activity#com.Frontpage.Main
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:7:9-13:20
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:9:9-16:20
 	android:label
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:8:19-51
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:11:13-45
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:7:19-52
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:10:13-46
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:9:13-12:29
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:12:13-15:29
 action#android.intent.action.MAIN
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:10:17-69
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:13:17-69
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:10:25-66
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:11:17-77
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:14:17-77
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:11:27-74
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:14:27-74
 uses-permission#android.permission.INTERNET
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:1-62
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:1-62
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:18-60
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:18-60
+uses-sdk
+INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.1] /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
