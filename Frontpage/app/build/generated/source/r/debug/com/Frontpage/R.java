@@ -18,8 +18,9 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int Button01=0x7f070002;
-        public static final int Button02=0x7f070003;
+        public static final int Button01=0x7f070003;
+        public static final int Button02=0x7f070004;
+        public static final int LinearLayout02=0x7f070002;
         public static final int ListView01=0x7f070001;
         public static final int TextView01=0x7f070000;
     }

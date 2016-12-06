@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 06 12:57:33 BRST 2016
+#Tue Dec 06 13:35:00 BRST 2016
 2.base=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 5.file=/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/main_activity.xml
 5.set=ANDROID_RESOURCE

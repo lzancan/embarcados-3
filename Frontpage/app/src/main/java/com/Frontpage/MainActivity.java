@@ -151,7 +151,7 @@ public class MainActivity extends Activity {
             );
 
             textviewcabecalho.setText("Notícias de " + SourceName);
-            if (textviewcabecalho.getText().toString().isEmpty())
+            if (!textviewcabecalho.getText().toString().contains("Notícias"))
                 textviewcabecalho.setText("Link inválido! Mantendo do último válido");
         } catch (Exception e) {
             Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);

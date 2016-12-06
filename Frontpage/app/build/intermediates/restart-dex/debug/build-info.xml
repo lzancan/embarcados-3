@@ -5,29 +5,29 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="606846863386323"
+    timestamp="609094915989516"
     token="-5867005400377076508"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="220" />
+        duration="363" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="61" />
+        duration="62" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
         location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="606846863386323"
+        timestamp="609094915989516"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
