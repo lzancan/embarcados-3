@@ -109,9 +109,9 @@ public class MainActivity extends Activity {
         });
 
     }
+    @TargetApi(9)
     public void OpenNews(String Url,ListView listView) {
         try {
-            arrayitemlist.clear();
             // document builder (parser)
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
@@ -123,6 +123,9 @@ public class MainActivity extends Activity {
             NodeList listItem = doc.getElementsByTagName("item"); // notícias
 
             String[] arrayTitles = new String[listItem.getLength()];
+
+            if (listItem.getLength() > 0)
+                arrayitemlist.clear();
 
             for (int x = 0; x < listItem.getLength(); x++) {
                 //titulo
@@ -148,6 +151,8 @@ public class MainActivity extends Activity {
             );
 
             textviewcabecalho.setText("Notícias de " + SourceName);
+            if (textviewcabecalho.getText().toString().isEmpty())
+                textviewcabecalho.setText("Link inválido! Mantendo do último válido");
         } catch (Exception e) {
             Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);
         }
