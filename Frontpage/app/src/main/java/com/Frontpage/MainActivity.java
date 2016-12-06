@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
         OpenNews(URL, listView);
 
         botaosetarsites = (Button) findViewById(R.id.Button02);
-        botaosetarsites.setText("Configurar Site");
+        botaosetarsites.setText("Trocar Assunto");
 		botaosetarsites.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
@@ -219,18 +219,8 @@ public class MainActivity extends Activity {
 	}
 @TargetApi(8)
     private String findURL(String Url){
-    if(!Url.toLowerCase().contains("rss")){
-        try {
-            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-            DocumentBuilder db = dbf.newDocumentBuilder();
-            Document doc = db.parse(Url);
-
-            NodeList Source = doc.getElementsByTagName("rss"); // nome da fonte
-            return Source.item(0).getTextContent();
-        }
-        catch (Exception e) {
-            Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);
-        }}
-        return "http://g1.globo.com/dynamo/".concat(Url).concat("/rss2.xml\"");
+    if(Url.toLowerCase().contains("http"))
+        return Url;
+    return "http://g1.globo.com/dynamo/".concat(Url).concat("/rss2.xml\"");
     }
 }
