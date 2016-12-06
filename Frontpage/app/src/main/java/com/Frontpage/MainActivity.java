@@ -231,6 +231,6 @@ public class MainActivity extends Activity {
         catch (Exception e) {
             Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG);
         }}
-        return Url;
+        return "http://g1.globo.com/dynamo/".concat(Url).concat("/rss2.xml\"");
     }
 }

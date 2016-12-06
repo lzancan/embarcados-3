@@ -5,13 +5,13 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="610695491197104"
+    timestamp="611019186881757"
     token="-5867005400377076508"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="24" />
+        duration="35" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -34,7 +34,7 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="610695491197104"
+        timestamp="611019186881757"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
