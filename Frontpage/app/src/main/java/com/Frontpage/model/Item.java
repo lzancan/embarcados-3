@@ -2,6 +2,7 @@ package com.Frontpage.model;
 
 public class Item {
 	private String title;
+    private String details;
 	private String url;
 	
 	public String getTitle() {
@@ -16,5 +17,11 @@ public class Item {
 	public void setUrl(String url) {
 		this.url = url;
 	}
+    public String getDetails() {
+        return details;
+    }
+    public void setDetails(String details) {
+        this.details = details;
+    }
 	
 }

@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/layout/main_activity.xml",
-        "source": "/home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/res/layout/main_activity.xml"
+        "merged": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/layout/main_activity.xml",
+        "source": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/layout/main_activity.xml"
+    },
+    {
+        "merged": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/layout/listview_layout.xml",
+        "source": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/layout/listview_layout.xml"
     }
 ]

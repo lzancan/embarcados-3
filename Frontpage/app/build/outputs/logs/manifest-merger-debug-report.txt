@@ -1,85 +1,85 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:2:1-46:12
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:6:7-32
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:6:7-32
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:5:7-30
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
-		INJECTED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:5:7-30
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:8:5-33:19
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:8:5-33:19
 	android:label
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:11:9-35
 	tools:ignore
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:14:9-30
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:14:9-30
 	android:icon
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:9:9-38
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:9:9-38
 	tools:targetApi
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:13:9-36
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:13:9-36
 	android:theme
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:12:9-70
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:12:9-70
 activity#com.Frontpage.MainActivity
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:15:9-22:20
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:15:9-22:20
 	android:label
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:16:13-54
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:16:13-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:18:13-21:29
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.Frontpage.SettingsActivity
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:24:9-31:20
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:24:9-31:20
 	android:label
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:26:13-46
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:26:13-46
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:25:13-58
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:25:13-58
 intent-filter#android.intent.action.APPLICATION_PREFERENCES+android.intent.category.PREFERENCE
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:27:13-30:29
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.APPLICATION_PREFERENCES
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:28:17-88
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:28:17-88
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:28:25-85
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:28:25-85
 category#android.intent.category.PREFERENCE
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:29:17-79
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:29:17-79
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:29:27-76
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:29:27-76
 receiver#com.Frontpage.ExampleAppWidgetProvider
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:35:5-41:16
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:35:5-41:16
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:35:15-54
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:35:15-54
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:36:9-38:25
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:36:9-38:25
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:37:13-80
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:37:13-80
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:37:21-77
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:37:21-77
 meta-data#android.appwidget.provider
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:39:9-40:62
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:39:9-40:62
 	android:resource
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:40:13-59
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:40:13-59
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:39:20-61
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:39:20-61
 uses-permission#android.permission.INTERNET
-ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:45:1-62
+ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:45:1-62
 	android:name
-		ADDED from /home/nadal/Downloads/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:45:18-60
+		ADDED from /media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/AndroidManifest.xml:45:18-60

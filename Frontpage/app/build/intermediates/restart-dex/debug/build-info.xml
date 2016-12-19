@@ -1,51 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86_64,x86"
-    api-level="23"
-    density="560dpi"
+    api-level="25"
+    density="xhdpi"
     format="8"
-    plugin-version="2.2.2"
-    timestamp="614783397739632"
-    token="-5867005400377076508"
-    verifier="COLD_SWAP_REQUESTED" >
+    plugin-version="2.2.3"
+    timestamp="11049582170276"
+    token="-9097640557764214525"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="32" />
+        duration="938" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="181" />
     <task
         name="instant-run-transform"
-        duration="7" />
+        duration="209" />
     <task
         name="verifier"
-        duration="0" />
+        duration="48" />
 
     <artifact
-        location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
+        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="611823602937495"
+        timestamp="10825647829717"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
+            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="613248885273042"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="11049582170276"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="614783397739632"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/nadal/Downloads/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
+            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

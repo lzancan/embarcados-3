@@ -5,14 +5,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -28,9 +26,8 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import com.Frontpage.SettingsActivity;
-
 public class MainActivity extends Activity {
+
 	private static final int RESULT_SETTINGS = 1;
     /** Called when the activity is first created. */
 	public Button botaoinformar;
@@ -39,7 +36,7 @@ public class MainActivity extends Activity {
 	public ArrayList<Item> arrayitemlist = new ArrayList<Item>();
 	//public SettingsActivity settings;
     public String URL = "http://g1.globo.com/dynamo/rs/rio-grande-do-sul/rss2.xml";
-    public int maxQuant = 0;
+    public int maxQuant = 40;
 
     @Override
     public void onCreate(final Bundle savedInstanceState) {
@@ -68,8 +65,6 @@ public class MainActivity extends Activity {
         });
 
         // abre a janela das notícias
-     /*   OpenNews(URL, listView);
-        URL = "http://g1.globo.com/dynamo/economia/rss2.xml";*/
         OpenNews(URL, listView, maxQuant);
 
         botaosetarsites = (Button) findViewById(R.id.Button02);
@@ -111,6 +106,8 @@ public class MainActivity extends Activity {
         });
 
     }
+
+    // abre rss de notícias
     @TargetApi(9)
     public void OpenNews(String Url,ListView listView, int maxQuant) {
         try {
@@ -125,6 +122,7 @@ public class MainActivity extends Activity {
             NodeList listItem = doc.getElementsByTagName("item"); // notícias
 
             String[] arrayTitles = new String[listItem.getLength()];
+            String[] arrayDetails = new String[listItem.getLength()];
 
             if (listItem.getLength() > 0)
                 arrayitemlist.clear();
@@ -132,15 +130,18 @@ public class MainActivity extends Activity {
          /*   if (maxQuant <= 0)
                 null;//maxQuant = listItem.getLength();*/
 
-            listView.setBackgroundColor(Color.LTGRAY);
+           // listView.setBackgroundColor(Color.LTGRAY);
            // System.out.println(maxQuant);
 
             for (int x = 0; x < listItem.getLength(); x++) {
                 //titulo
-                String title = "" + Integer.toString(x+1).concat(". ").concat(listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue());
+                String title = listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue();
 
                 //link
                 String link = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue();
+
+                // detalhes
+                //String details=listItem.item(x).getChildNodes().item(2).gete
 
                 Item item = new Item();
 
@@ -148,14 +149,14 @@ public class MainActivity extends Activity {
                 item.setUrl(link);
 
                 arrayTitles[x] = item.getTitle();
+                arrayDetails[x]=item.getDetails();
 
                 arrayitemlist.add(item);
             }
 
 
             listView.setAdapter(
-                    new ArrayAdapter<String>(getBaseContext(),
-                            android.R.layout.simple_list_item_1, arrayTitles)
+                    new LazyAdapter(this,arrayTitles)
             );
 
             textviewcabecalho.setText("Notícias de " + SourceName);
