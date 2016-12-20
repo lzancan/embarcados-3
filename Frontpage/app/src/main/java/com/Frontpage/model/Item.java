@@ -4,6 +4,7 @@ public class Item {
 	private String title;
     private String details;
 	private String url;
+    private String images;
 	
 	public String getTitle() {
 		return title;
@@ -23,5 +24,11 @@ public class Item {
     public void setDetails(String details) {
         this.details = details;
     }
+	public String getImages() {
+		return images;
+	}
+	public void setImages(String images) {
+		this.images = images;
+	}
 	
 }

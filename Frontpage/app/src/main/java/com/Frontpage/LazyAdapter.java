@@ -15,25 +15,26 @@ import android.widget.TextView;
 
 public class LazyAdapter extends BaseAdapter {
 
-    String [] result;
+    String [] titles;
     String [] details;
     Context context;
-    String [] imageId;
+    String [] images;
     private static LayoutInflater inflater=null;
 
-    public LazyAdapter(MainActivity mainActivity, String[] Titulo) {
+    public LazyAdapter(MainActivity mainActivity, String[] Titulo, String[] Detalhes, String [] ImageURL) {
         // TODO Auto-generated constructor stub
-        result=Titulo;
+        titles =Titulo;
         context=mainActivity;
-        //imageId=ImageURL;
-        //details=Detalhes;
+        images=ImageURL;
+        details=Detalhes;
         inflater = ( LayoutInflater )context.
                 getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
     }
     @Override
     public int getCount() {
         // TODO Auto-generated method stub
-        return result.length;
+        return titles.length;
     }
 
     @Override
@@ -61,9 +62,10 @@ public class LazyAdapter extends BaseAdapter {
         View rowView;
         rowView = inflater.inflate(R.layout.listview_layout, null);
         holder.txtview_titulo =(TextView) rowView.findViewById(R.id.title);
-        //holder.txtview_detalhes =(TextView) rowView.findViewById(R.id.news_detail);
+        holder.txtview_detalhes =(TextView) rowView.findViewById(R.id.news_detail);
         //holder.imgview =(ImageView) rowView.findViewById(R.id.list_image);
-        holder.txtview_titulo.setText(result[position]);
+        holder.txtview_titulo.setText(titles[position]);
+        holder.txtview_detalhes.setText(details[position]);
         //holder.imgview.setImageResource(imageId[position]);
 
         return rowView;

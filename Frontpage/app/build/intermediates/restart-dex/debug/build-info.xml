@@ -5,40 +5,40 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="11049582170276"
+    timestamp="18219198456529"
     token="-9097640557764214525"
-    verifier="COMPATIBLE" >
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="938" />
+        duration="80" />
     <task
         name="instant-run-dex"
-        duration="181" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="209" />
+        duration="55" />
     <task
         name="verifier"
-        duration="48" />
+        duration="2" />
 
     <artifact
-        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="10825647829717"
+        timestamp="15367413403336"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="11049582170276"
-        verifier="COMPATIBLE" >
+        timestamp="18219198456529"
+        verifier="FIELD_TYPE_CHANGE" >
         <artifact
-            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

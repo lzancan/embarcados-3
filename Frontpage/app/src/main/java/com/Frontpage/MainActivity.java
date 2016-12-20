@@ -33,6 +33,7 @@ public class MainActivity extends Activity {
 	public Button botaoinformar;
 	public Button botaosetarsites;
 	public TextView textviewcabecalho;
+    private String ImageURL;
 	public ArrayList<Item> arrayitemlist = new ArrayList<Item>();
 	//public SettingsActivity settings;
     public String URL = "http://g1.globo.com/dynamo/rs/rio-grande-do-sul/rss2.xml";
@@ -123,6 +124,7 @@ public class MainActivity extends Activity {
 
             String[] arrayTitles = new String[listItem.getLength()];
             String[] arrayDetails = new String[listItem.getLength()];
+            String[] arrayImages = new String [listItem.getLength()];
 
             if (listItem.getLength() > 0)
                 arrayitemlist.clear();
@@ -132,7 +134,6 @@ public class MainActivity extends Activity {
 
            // listView.setBackgroundColor(Color.LTGRAY);
            // System.out.println(maxQuant);
-
             for (int x = 0; x < listItem.getLength(); x++) {
                 //titulo
                 String title = listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue();
@@ -141,22 +142,39 @@ public class MainActivity extends Activity {
                 String link = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue();
 
                 // detalhes
-                //String details=listItem.item(x).getChildNodes().item(2).gete
+                String details=listItem.item(x).getChildNodes().item(2).getChildNodes().item(0).getNodeValue();
 
+
+                if (!details.startsWith("<")){
+                    // do nothing
+                    // não tem imagem
+                    //System.out.println (details);
+                }
+                else{
+                    // trata para pegar só a description
+                    // pega imagem também
+                    ImageURL = details.substring(details.lastIndexOf("src='") + 5);
+                    ImageURL=ImageURL.split("'")[0];
+                    //System.out.println(ImageURL);
+                    details=details.substring(details.lastIndexOf("br />") + 5); // avança 5 para começar após ">"
+                }
+                //System.out.println(details);
                 Item item = new Item();
 
                 item.setTitle(title);
+                item.setDetails(details);
                 item.setUrl(link);
 
                 arrayTitles[x] = item.getTitle();
-                arrayDetails[x]=item.getDetails();
+                arrayDetails[x] = item.getDetails();
+                arrayImages[x] = item.getImages();
 
                 arrayitemlist.add(item);
             }
 
 
             listView.setAdapter(
-                    new LazyAdapter(this,arrayTitles)
+                    new LazyAdapter(this,arrayTitles,arrayDetails)
             );
 
             textviewcabecalho.setText("Notícias de " + SourceName);
