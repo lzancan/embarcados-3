@@ -1,26 +1,29 @@
 #Internal package file, do not edit.
-#Mon Dec 19 20:00:42 BRST 2016
+#Tue Dec 20 09:35:19 BRST 2016
 2.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-5.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v12/example_appwidget_info.xml
+5.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
 5.set=ANDROID_RESOURCE
 3.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-6.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
+6.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v12/example_appwidget_info.xml
 2.set=ANDROID_RESOURCE
+10.set=ANDROID_RESOURCE
+10.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/preferences.xml
 4.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 7.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
 7.set=ANDROID_RESOURCE
-count=10
-0.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+count=11
+0.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 5.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 8.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v17/example_appwidget_info.xml
 4.set=ANDROID_RESOURCE
 6.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v3/example_appwidget_info.xml
+1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 9.set=ANDROID_RESOURCE
-9.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/preferences.xml
+9.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/listview_layout_semimagem.xml
+10.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 1.set=ANDROID_RESOURCE
 7.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-2.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+2.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v3/example_appwidget_info.xml
 6.set=ANDROID_RESOURCE
 0.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 8.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_

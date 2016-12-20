@@ -146,9 +146,7 @@ public class MainActivity extends Activity {
 
 
                 if (!details.startsWith("<")){
-                    // do nothing
-                    // não tem imagem
-                    //System.out.println (details);
+                   ImageURL="";
                 }
                 else{
                     // trata para pegar só a description
@@ -164,6 +162,7 @@ public class MainActivity extends Activity {
                 item.setTitle(title);
                 item.setDetails(details);
                 item.setUrl(link);
+                item.setImages(ImageURL);
 
                 arrayTitles[x] = item.getTitle();
                 arrayDetails[x] = item.getDetails();
@@ -174,7 +173,7 @@ public class MainActivity extends Activity {
 
 
             listView.setAdapter(
-                    new LazyAdapter(this,arrayTitles,arrayDetails)
+                    new LazyAdapter(this,arrayTitles,arrayDetails,arrayImages)
             );
 
             textviewcabecalho.setText("Notícias de " + SourceName);

@@ -4,33 +4,26 @@
     android:layout_height="match_parent">
 
     <!--  Imagem à esquerda (Thumbnail/miniatura)-->
-    <LinearLayout
-        android:id="@+id/thumbnail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="3dip"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/icon"
-        android:layout_marginRight="5dip">
 
-        <ImageView
-            android:id="@+id/list_image"
-            android:layout_width="50dip"
-            android:layout_height="50dip" />
 
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="65dip"
+        android:layout_height="80dip" />
+
 
     <!-- Título-->
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/thumbnail"
-        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_alignTop="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_margin="1dp"
         android:text="Título"
         android:textColor="#040404"
         android:typeface="sans"
-        android:textSize="15dip"
+        android:textSize="14dip"
         android:textStyle="bold"/>
 
     <!-- detalhes da Notícia -->
@@ -40,9 +33,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
         android:textColor="#343434"
-        android:textSize="10dip"
-        android:layout_marginTop="1dip"
-        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="9dip"
+        android:layout_marginTop="1dp"
+        android:layout_margin="1dp"
+        android:layout_toRightOf="@+id/list_image"
         android:text="detalhes" />
 
 

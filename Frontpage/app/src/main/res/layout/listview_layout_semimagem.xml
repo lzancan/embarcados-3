@@ -3,22 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--  Imagem à esquerda (Thumbnail/miniatura)-->
-
-
-    <ImageView
-        android:id="@+id/list_image"
-        android:layout_width="65dip"
-        android:layout_height="80dip" />
-
-
     <!-- Título-->
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/list_image"
-        android:layout_toRightOf="@+id/list_image"
         android:layout_margin="1dp"
         android:text="Título"
         android:textColor="#040404"
@@ -36,9 +25,6 @@
         android:textSize="9dip"
         android:layout_marginTop="1dp"
         android:layout_margin="1dp"
-        android:layout_toRightOf="@+id/list_image"
         android:text="detalhes" />
-
-
 
 </RelativeLayout>

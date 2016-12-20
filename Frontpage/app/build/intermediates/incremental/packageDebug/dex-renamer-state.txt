@@ -1,4 +1,4 @@
-#Mon Dec 19 21:16:03 BRST 2016
+#Tue Dec 20 09:31:47 BRST 2016
 base.0=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc
 renamed.1=classes.dex
 renamed.0=classes2.dex

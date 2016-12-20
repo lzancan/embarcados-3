@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/layout/listview_layout_semimagem.xml",
+        "source": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/layout/listview_layout_semimagem.xml"
+    },
+    {
         "merged": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/merged/debug/layout/main_activity.xml",
         "source": "/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/src/main/res/layout/main_activity.xml"
     },
