@@ -20,8 +20,10 @@
     <string name="assunto8">Loterias</string>
     <string name="assunto9">Mundo</string>
     <string name="button_name">botao</string>
+    <string name="compartilhar">Compartilhar</string>
     <string name="config">Configurações</string>
     <string name="hello">Hello World, Main!</string>
+    <string name="help">Sobre</string>
     <string name="link1">http://g1.globo.com/dynamo/rss2.xml</string>
     <string name="link10">http://g1.globo.com/dynamo/musica/rss2.xml</string>
     <string name="link11">http://g1.globo.com/dynamo/natureza/rss2.xml</string>

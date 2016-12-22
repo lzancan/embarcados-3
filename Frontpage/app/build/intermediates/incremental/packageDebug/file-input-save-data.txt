@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 21 15:43:00 BRST 2016
+#Thu Dec 22 09:02:16 BRST 2016
 22.set=DEX
 8.set=DEX
 11.set=DEX
@@ -7,7 +7,7 @@
 14.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 16.set=ANDROID_RESOURCE
 count=24
-6.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
+6.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/menu/menu_settings.xml
 6.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 2.set=ANDROID_RESOURCE
 0.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
@@ -19,10 +19,10 @@ count=24
 10.set=ANDROID_RESOURCE
 15.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 15.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-7.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/menu/menu_settings.xml
+7.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
 7.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 15.set=ANDROID_RESOURCE
-1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v3/example_appwidget_info.xml
+1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 1.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 1.set=ANDROID_RESOURCE
 21.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex
@@ -33,12 +33,12 @@ count=24
 16.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 8.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc/classes.dex
 8.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc
-17.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v12/example_appwidget_info.xml
+17.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
 17.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 10.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/listview_layout_semimagem.xml
 10.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 14.set=DEX
-2.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+2.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v3/example_appwidget_info.xml
 2.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 22.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
 22.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
@@ -46,7 +46,7 @@ count=24
 19.set=DEX
 9.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v17/example_appwidget_info.xml
 5.set=DEX
-18.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
+18.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v12/example_appwidget_info.xml
 9.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 18.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 11.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

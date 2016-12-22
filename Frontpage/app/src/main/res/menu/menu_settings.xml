@@ -8,5 +8,13 @@
         android:title="@string/config"
         android:orderInCategory="100"
         tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/compartilhar"
+        android:orderInCategory="101" />
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/help"
+        android:orderInCategory="102"/>
 
 </menu>

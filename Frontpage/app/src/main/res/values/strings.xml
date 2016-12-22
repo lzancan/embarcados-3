@@ -12,5 +12,7 @@
     <string name="quantidade_description">Determine a quantidade máxima de ítens por assunto</string>
     <string name="save">Salvar</string>
     <string name="config">Configurações</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="help">Sobre</string>
 
 </resources>

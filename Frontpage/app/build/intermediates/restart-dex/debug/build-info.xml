@@ -5,33 +5,46 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="6913587755871"
+    timestamp="3511793718883"
     token="-9097640557764214525"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="IMPLEMENTED_INTERFACES_CHANGE" >
 
     <task
         name="javac"
-        duration="385" />
+        duration="450" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="266" />
+        duration="115" />
     <task
         name="verifier"
-        duration="15" />
+        duration="5" />
 
     <artifact
-        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="6913587755871"
+        timestamp="2099549679223"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="3511793718883"
+        verifier="IMPLEMENTED_INTERFACES_CHANGE" >
+        <artifact
+            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
