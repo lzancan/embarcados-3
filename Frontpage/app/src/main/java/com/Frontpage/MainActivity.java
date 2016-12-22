@@ -5,9 +5,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -122,19 +125,18 @@ public class MainActivity extends Activity {
 
             NodeList listItem = doc.getElementsByTagName("item"); // notícias
 
-            String[] arrayTitles = new String[listItem.getLength()];
-            String[] arrayDetails = new String[listItem.getLength()];
-            String[] arrayImages = new String [listItem.getLength()];
+            String[] arrayTitles = new String[maxQuant];
+            String[] arrayDetails = new String[maxQuant];
+            String[] arrayImages = new String [maxQuant];
 
             if (listItem.getLength() > 0)
                 arrayitemlist.clear();
 
          /*   if (maxQuant <= 0)
                 null;//maxQuant = listItem.getLength();*/
-
-           // listView.setBackgroundColor(Color.LTGRAY);
+            listView.setBackgroundColor(Color.LTGRAY);
            // System.out.println(maxQuant);
-            for (int x = 0; x < listItem.getLength(); x++) {
+            for (int x = 0; x < maxQuant; x++) {
                 //titulo
                 String title = listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue();
 
@@ -199,8 +201,7 @@ public class MainActivity extends Activity {
 
 	}
 
-	private void showUserSettings()
-	{
+	private void showUserSettings() {
 		SharedPreferences sharedPrefs = PreferenceManager
 				.getDefaultSharedPreferences(this);
 
@@ -214,7 +215,13 @@ public class MainActivity extends Activity {
 
         if (sharedPrefs.getString("pref", null) != null)
             URL = findURL(sharedPrefs.getString("pref", null));
-
+        if (sharedPrefs.getString("num", null) != null)
+                maxQuant = Integer.parseInt(sharedPrefs.getString("num",null));
+                if(maxQuant<0)
+                    maxQuant=0;
+                if(maxQuant>40)
+                    maxQuant=40;
+                System.out.println (maxQuant);
 	}
 
 
@@ -248,5 +255,26 @@ public class MainActivity extends Activity {
     if(Url.toLowerCase().contains("http"))
         return Url;
     return "http://g1.globo.com/dynamo/".concat(Url).concat("/rss2.xml\"");
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_settings, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

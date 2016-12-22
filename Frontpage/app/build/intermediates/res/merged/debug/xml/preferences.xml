@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <EditTextPreference
+         android:key="num"
+         android:title="@string/quantidade"
+         android:summary="@string/quantidade_description" />
+    <EditTextPreference
         android:key="pref"
         android:title="@string/pref_sync"
         android:summary="@string/pref_sync_summ" />
 
-    <EditTextPreference
-         android:key="num"
-         android:title="Quantidade"
-         android:summary="Determina a quantidade máxima de ítens por fonte" />
+    <PreferenceCategory
+        android:title="Escolha por Assunto">
 
-    <!--ListPreference
-        android:dependency="pref_sync"
-        android:key="pref_syncConnectionType"
-        android:title="@string/pref_syncConnectionType"
-        android:dialogTitle="@string/pref_syncConnectionType"
-        android:entries="@array/pref_syncConnectionTypes_entries"
-        android:entryValues="@array/pref_syncConnectionTypes_values"
-        android:defaultValue="@string/pref_syncConnectionTypes_default" /-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="@string/assunto1"
+            android:key="check_box_preference_1" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto2"
+            android:key="check_box_preference_2" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Escolha por Região">
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao1"
+            android:key="check_box_preference_1" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao2"
+            android:key="check_box_preference_2" />
+    </PreferenceCategory>
+
+
 </PreferenceScreen>

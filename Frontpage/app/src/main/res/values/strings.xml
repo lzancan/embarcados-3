@@ -5,7 +5,12 @@
     <string name="button_name">botao</string>
 
     <string name="pref_sync">Fonte</string>
-    <string name="pref_sync_summ">Mudar Assunto ou Site</string>
+    <string name="pref_sync_summ">Mudar Assunto</string>
     <string name="pref_syncConnectionType">Outra Coisa</string>
     <string name="pref_syncConnectionTypes_default">pref_syncConnectionTypes_default</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="quantidade_description">Determine a quantidade máxima de ítens por assunto</string>
+    <string name="save">Salvar</string>
+    <string name="config">Configurações</string>
+
 </resources>
