@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
     private String ImageURL;
     public ArrayList<Item> arrayitemlist = new ArrayList<Item>();
     //public SettingsActivity settings;
-    public String URL = "http://g1.globo.com/dynamo/rs/rio-grande-do-sul/rss2.xml";
+    public String URL = "http://g1.globo.com/dynamo/brasil/rss2.xml";
     public int maxQuant = 40;
     private ListView listView=null;
 
@@ -77,12 +77,16 @@ public class MainActivity extends Activity {
         OpenNews(URL, listView, maxQuant);
 
 
+
     }
 
     // abre rss de notícias
     @TargetApi(9)
     public void OpenNews(String Url, ListView listView, int maxQuant) {
         try {
+
+
+
             // document builder (parser)
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
@@ -100,32 +104,48 @@ public class MainActivity extends Activity {
             if (listItem.getLength() > 0)
                 arrayitemlist.clear();
 
-         /*   if (maxQuant <= 0)
-                null;//maxQuant = listItem.getLength();*/
             listView.setBackgroundColor(Color.LTGRAY);
             // System.out.println(maxQuant);
-            for (int x = 0; x < maxQuant; x++) {
+            String data_imagem="";
+            String details="";
+            String title="";
+            String link="";
+            for (int x = 0; x <maxQuant; x++) {
                 //titulo
-                String title = listItem.item(x).getChildNodes().item(0).getChildNodes().item(0).getNodeValue();
-
+                title = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue(); // era item(0)
+                System.out.println("\ntitle: " + title);
                 //link
-                String link = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue();
+                link = listItem.item(x).getChildNodes().item(3).getChildNodes().item(0).getNodeValue(); // era item(1)
+                //System.out.println("link: " + link);
+                System.out.println ("chegou aqui0 "+x);
+                System.out.println(listItem.item(x).getChildNodes().item(7).getFirstChild().getNodeValue());
+                data_imagem=listItem.item(x).getChildNodes().item(7).getFirstChild().getNodeValue();
 
-                // detalhes
-                String details = listItem.item(x).getChildNodes().item(2).getChildNodes().item(0).getNodeValue();
+
+                if(!data_imagem.contains(".")){
+                    System.out.println ("chegou aqui00 "+x);
+                    // imagem
+                    ImageURL=listItem.item(x).getChildNodes().item(7).getChildNodes().item(1).getNodeValue();
+                    // detalhes
+                    details = listItem.item(x).getChildNodes().item(7).getChildNodes().item(2).getNodeValue(); // era listItem.item(x).getChildNodes().item(2).getChildNodes().item(0).getNodeValue()
+                    //System.out.println("details: " + details);
+
+                }
+                else{
+                    System.out.println ("chegou aqui000 "+x);
+                    ImageURL="";
+                    details = data_imagem;
+                }
+                System.out.println ("chegou aqui0000 "+x);
 
 
-                if (!details.startsWith("<")) {
-                    ImageURL = "";
-                } else {
+                if (ImageURL.contains("http")) {
                     // trata para pegar só a description
                     // pega imagem também
-                    ImageURL = details.substring(details.lastIndexOf("src='") + 5);
-                    ImageURL = ImageURL.split("'")[0];
-                    //System.out.println(ImageURL);
-                    details = details.substring(details.lastIndexOf("br />") + 5); // avança 5 para começar após ">"
+                    ImageURL = ImageURL.substring(ImageURL.lastIndexOf("src=\"") + 5);
+                    ImageURL = ImageURL.split("\"")[0];
                 }
-                //System.out.println(details);
+                System.out.println("imagem: " + ImageURL);
                 Item item = new Item();
 
                 item.setTitle(title);
@@ -139,6 +159,7 @@ public class MainActivity extends Activity {
 
                 arrayitemlist.add(item);
             }
+
 
 
             listView.setAdapter(

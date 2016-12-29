@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e787b8751b2ae838d2965a59bb8bfc6ae4b2dc8e">
+        sha1="fcb341b737ea923c29b16094c849ea71e6dc634e">
         <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_24cedf09018af80503f02363bd5784dd04d458cc/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d1c7fdd3a99fe92dc8474ae673ba003c12b073a7">
+        sha1="a70ffd7185fb7bcd4b03d774bbf6ef9d01b823ed">
         <dex dex="/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9edb851d1ab6e10712d9b0770deea751726f4384/classes.dex" />
     </item>
 
