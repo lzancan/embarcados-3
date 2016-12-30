@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 29 13:04:21 BRST 2016
+#Fri Dec 30 10:38:22 BRST 2016
 8.set=ANDROID_RESOURCE
 1.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 1.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
@@ -7,13 +7,13 @@
 3.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 4.set=ANDROID_RESOURCE
 5.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-5.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
+5.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v12/example_appwidget_info.xml
 7.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-7.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/menu/menu_settings.xml
+7.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
 11.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/preferences.xml
 11.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 9.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-9.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/listview_layout_semimagem.xml
+9.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v17/example_appwidget_info.xml
 11.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
 7.set=ANDROID_RESOURCE
@@ -27,11 +27,11 @@
 4.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/main_activity.xml
 4.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
 6.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-6.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v12/example_appwidget_info.xml
+6.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml/example_appwidget_info.xml
 10.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-10.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/xml-v17/example_appwidget_info.xml
+10.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/layout/listview_layout_semimagem.xml
 8.base=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_
-8.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
+8.file=/media/luciano/Ubuntuexterno/Workspace/android-studio/embarcados-3/Frontpage/app/build/intermediates/res/resources-debug.ap_/res/menu/menu_settings.xml
 2.set=ANDROID_RESOURCE
 9.set=ANDROID_RESOURCE
 count=12

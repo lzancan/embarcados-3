@@ -43,7 +43,8 @@ public class MainActivity extends Activity {
     private String ImageURL;
     public ArrayList<Item> arrayitemlist = new ArrayList<Item>();
     //public SettingsActivity settings;
-    public String URL = "http://g1.globo.com/dynamo/brasil/rss2.xml";
+    //public String URL = "http://g1.globo.com/dynamo/brasil/rss2.xml";
+    public String URL = "http://g1.globo.com/dynamo/rss2.xml";
     public int maxQuant = 40;
     private ListView listView=null;
 
@@ -83,9 +84,8 @@ public class MainActivity extends Activity {
     // abre rss de notícias
     @TargetApi(9)
     public void OpenNews(String Url, ListView listView, int maxQuant) {
+
         try {
-
-
 
             // document builder (parser)
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -106,6 +106,7 @@ public class MainActivity extends Activity {
 
             listView.setBackgroundColor(Color.LTGRAY);
             // System.out.println(maxQuant);
+            System.out.println(listItem.getLength());
             String data_imagem="";
             String details="";
             String title="";
@@ -113,39 +114,37 @@ public class MainActivity extends Activity {
             for (int x = 0; x <maxQuant; x++) {
                 //titulo
                 title = listItem.item(x).getChildNodes().item(1).getChildNodes().item(0).getNodeValue(); // era item(0)
-                System.out.println("\ntitle: " + title);
+                //System.out.println("title: " + title);
                 //link
                 link = listItem.item(x).getChildNodes().item(3).getChildNodes().item(0).getNodeValue(); // era item(1)
                 //System.out.println("link: " + link);
-                System.out.println ("chegou aqui0 "+x);
-                System.out.println(listItem.item(x).getChildNodes().item(7).getFirstChild().getNodeValue());
-                data_imagem=listItem.item(x).getChildNodes().item(7).getFirstChild().getNodeValue();
 
 
-                if(!data_imagem.contains(".")){
-                    System.out.println ("chegou aqui00 "+x);
-                    // imagem
-                    ImageURL=listItem.item(x).getChildNodes().item(7).getChildNodes().item(1).getNodeValue();
-                    // detalhes
-                    details = listItem.item(x).getChildNodes().item(7).getChildNodes().item(2).getNodeValue(); // era listItem.item(x).getChildNodes().item(2).getChildNodes().item(0).getNodeValue()
-                    //System.out.println("details: " + details);
 
-                }
-                else{
-                    System.out.println ("chegou aqui000 "+x);
-                    ImageURL="";
-                    details = data_imagem;
-                }
-                System.out.println ("chegou aqui0000 "+x);
+                data_imagem = listItem.item(x).getChildNodes().item(7).getFirstChild().getNodeValue();
+
+                    if (listItem.item(x).getChildNodes().item(7).getChildNodes().getLength()>1) { // TEM FILHOS
+                        //System.out.println ("tem filhos");
+                        // imagem
+                        ImageURL = listItem.item(x).getChildNodes().item(7).getChildNodes().item(1).getNodeValue();
+                        // detalhes
+                        details = listItem.item(x).getChildNodes().item(7).getChildNodes().item(2).getNodeValue(); // era listItem.item(x).getChildNodes().item(2).getChildNodes().item(0).getNodeValue()
+                        //System.out.println("details: " + details);
+                    } else { // NAO TEM FILHO
+                        //System.out.println ("nao tem filhos");
+                        ImageURL = "";
+                        details = data_imagem;
+                    }
 
 
-                if (ImageURL.contains("http")) {
+
+                if (ImageURL!="") {
                     // trata para pegar só a description
                     // pega imagem também
                     ImageURL = ImageURL.substring(ImageURL.lastIndexOf("src=\"") + 5);
                     ImageURL = ImageURL.split("\"")[0];
                 }
-                System.out.println("imagem: " + ImageURL);
+                //System.out.println("imagem: " + ImageURL);
                 Item item = new Item();
 
                 item.setTitle(title);
@@ -202,16 +201,56 @@ public class MainActivity extends Activity {
 
         settingsTextView.setText(builder.toString());
 
-        if (sharedPrefs.getString("pref", null) != null)
-            URL = findURL(sharedPrefs.getString("pref", null));
+
         if (sharedPrefs.getString("num", null) != null)
             maxQuant = Integer.parseInt(sharedPrefs.getString("num", null));
         if (maxQuant < 0)
             maxQuant = 0;
         if (maxQuant > 40)
             maxQuant = 40;
-        System.out.println(maxQuant);
+
+        if(sharedPrefs.getBoolean("checkbox_preference_1",true))
+            URL=getString(R.string.link1);
+        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
+            URL=getString(R.string.link2);
+        if(sharedPrefs.getBoolean("checkbox_preference_3",true))
+            URL=getString(R.string.link3);
+        if(sharedPrefs.getBoolean("checkbox_preference_4",true))
+            URL=getString(R.string.link4);
+        if(sharedPrefs.getBoolean("checkbox_preference_5",true))
+            URL=getString(R.string.link5);
+        if(sharedPrefs.getBoolean("checkbox_preference_6",true))
+            URL=getString(R.string.link6);
+        if(sharedPrefs.getBoolean("checkbox_preference_6",true))
+            URL=getString(R.string.link6);
+        if(sharedPrefs.getBoolean("checkbox_preference_7",true))
+            URL=getString(R.string.link7);
+        if(sharedPrefs.getBoolean("checkbox_preference_8",true))
+            URL=getString(R.string.link8);
+        if(sharedPrefs.getBoolean("checkbox_preference_9",true))
+            URL=getString(R.string.link9);
+        if(sharedPrefs.getBoolean("checkbox_preference_10",true))
+            URL=getString(R.string.link10);
+        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
+            URL=getString(R.string.link2);
+        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
+            URL=getString(R.string.link2);
+        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
+            URL=getString(R.string.link2);
+        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
+            URL=getString(R.string.link2);
+
+
+
+
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_1",true))
+            URL=getString(R.string.link_regiao1);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_2",true))
+            URL=getString(R.string.link_regiao2);
+        System.out.println(URL);
+
     }
+
 
 
     @Override
@@ -238,12 +277,6 @@ public class MainActivity extends Activity {
         OpenNews(URL, listView, maxQuant);
     }
 
-    @TargetApi(8)
-    private String findURL(String Url) {
-        if (Url.toLowerCase().contains("http"))
-            return Url;
-        return "http://g1.globo.com/dynamo/".concat(Url).concat("/rss2.xml\"");
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

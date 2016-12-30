@@ -4,10 +4,7 @@
          android:key="num"
          android:title="@string/quantidade"
          android:summary="@string/quantidade_description" />
-    <EditTextPreference
-        android:key="pref"
-        android:title="@string/pref_sync"
-        android:summary="@string/pref_sync_summ" />
+
 
     <PreferenceCategory
         android:title="Escolha por Assunto">
@@ -15,11 +12,69 @@
         <CheckBoxPreference
             android:defaultValue="true"
             android:title="@string/assunto1"
-            android:key="check_box_preference_1" />
+            android:key="checkbox_preference_1" />
         <CheckBoxPreference
             android:defaultValue="false"
             android:title="@string/assunto2"
-            android:key="check_box_preference_2" />
+            android:key="checkbox_preference_2" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto3"
+            android:key="checkbox_preference_3" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto4"
+            android:key="checkbox_preference_4" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto5"
+            android:key="checkbox_preference_5" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto6"
+            android:key="checkbox_preference_6" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto7"
+            android:key="checkbox_preference_7" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto8"
+            android:key="checkbox_preference_8" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto9"
+            android:key="checkbox_preference_9" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto10"
+            android:key="checkbox_preference_10" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto11"
+            android:key="checkbox_preference_11" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto12"
+            android:key="checkbox_preference_12" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto13"
+            android:key="checkbox_preference_13" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto14"
+            android:key="checkbox_preference_14" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto15"
+            android:key="checkbox_preference_15" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/assunto16"
+            android:key="checkbox_preference_16" />
+
+
 
     </PreferenceCategory>
 
@@ -30,11 +85,224 @@
         <CheckBoxPreference
             android:defaultValue="false"
             android:title="@string/regiao1"
-            android:key="check_box_preference_1" />
+            android:key="checkbox_preference_regiao_1" />
         <CheckBoxPreference
             android:defaultValue="false"
             android:title="@string/regiao2"
-            android:key="check_box_preference_2" />
+            android:key="checkbox_preference_regiao_2" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao3"
+            android:key="checkbox_preference_regiao_3" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao4"
+            android:key="checkbox_preference_regiao_4" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao5"
+            android:key="checkbox_preference_regiao_5" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao6"
+            android:key="checkbox_preference_regiao_6" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao7"
+            android:key="checkbox_preference_regiao_7" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao8"
+            android:key="checkbox_preference_regiao_8" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao9"
+            android:key="checkbox_preference_regiao_9" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao10"
+            android:key="checkbox_preference_regiao_10" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao11"
+            android:key="checkbox_preference_regiao_11" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao12"
+            android:key="checkbox_preference_regiao_12" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao13"
+            android:key="checkbox_preference_regiao_13" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao14"
+            android:key="checkbox_preference_regiao_14" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao15"
+            android:key="checkbox_preference_regiao_15" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao16"
+            android:key="checkbox_preference_regiao_16" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao17"
+            android:key="checkbox_preference_regiao_17" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao18"
+            android:key="checkbox_preference_regiao_18" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao19"
+            android:key="checkbox_preference_regiao_19" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao20"
+            android:key="checkbox_preference_regiao_20" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao21"
+            android:key="checkbox_preference_regiao_21" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao22"
+            android:key="checkbox_preference_regiao_22" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao23"
+            android:key="checkbox_preference_regiao_23" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao24"
+            android:key="checkbox_preference_regiao_24" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao25"
+            android:key="checkbox_preference_regiao_25" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao26"
+            android:key="checkbox_preference_regiao_26" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao27"
+            android:key="checkbox_preference_regiao_27" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao28"
+            android:key="checkbox_preference_regiao_28" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao29"
+            android:key="checkbox_preference_regiao_29" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao30"
+            android:key="checkbox_preference_regiao_30" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao31"
+            android:key="checkbox_preference_regiao_31" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao32"
+            android:key="checkbox_preference_regiao_32" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao33"
+            android:key="checkbox_preference_regiao_33" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao34"
+            android:key="checkbox_preference_regiao_34" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao35"
+            android:key="checkbox_preference_regiao_35" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao36"
+            android:key="checkbox_preference_regiao_36" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao37"
+            android:key="checkbox_preference_regiao_37" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao38"
+            android:key="checkbox_preference_regiao_38" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao39"
+            android:key="checkbox_preference_regiao_39" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao40"
+            android:key="checkbox_preference_regiao_40" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao41"
+            android:key="checkbox_preference_regiao_41" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao42"
+            android:key="checkbox_preference_regiao_42" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao8"
+            android:key="checkbox_preference_regiao_8" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao43"
+            android:key="checkbox_preference_regiao_43" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao44"
+            android:key="checkbox_preference_regiao_44" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao45"
+            android:key="checkbox_preference_regiao_45" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao46"
+            android:key="checkbox_preference_regiao_46" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao47"
+            android:key="checkbox_preference_regiao_47" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao48"
+            android:key="checkbox_preference_regiao_48" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao49"
+            android:key="checkbox_preference_regiao_49" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao50"
+            android:key="checkbox_preference_regiao_50" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao51"
+            android:key="checkbox_preference_regiao_51" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao52"
+            android:key="checkbox_preference_regiao_52" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao53"
+            android:key="checkbox_preference_regiao_53" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/regiao54"
+            android:key="checkbox_preference_regiao_54" />
+
     </PreferenceCategory>
 
 
