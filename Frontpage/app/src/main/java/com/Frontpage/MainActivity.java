@@ -48,10 +48,14 @@ public class MainActivity extends Activity {
     public int maxQuant = 40;
     private ListView listView=null;
 
+    SharedPreferences sharedPrefs;
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
+
+        sharedPrefs = PreferenceManager
+                .getDefaultSharedPreferences(this);
 
         //pega a instancia do textviewcabecalho
         textviewcabecalho = (TextView) findViewById(R.id.TextView01);
@@ -75,6 +79,7 @@ public class MainActivity extends Activity {
         });
 
         // abre a janela das notícias
+        check_url_numeros();
         OpenNews(URL, listView, maxQuant);
 
 
@@ -106,7 +111,7 @@ public class MainActivity extends Activity {
 
             listView.setBackgroundColor(Color.LTGRAY);
             // System.out.println(maxQuant);
-            System.out.println(listItem.getLength());
+            //System.out.println(listItem.getLength());
             String data_imagem="";
             String details="";
             String title="";
@@ -165,7 +170,7 @@ public class MainActivity extends Activity {
                     new LazyAdapter(this, arrayTitles, arrayDetails, arrayImages)
             );
 
-            textviewcabecalho.setText("Notícias de " + SourceName);
+            textviewcabecalho.setText("Notícias de " + SourceName.replaceAll(">",""));
             if (!textviewcabecalho.getText().toString().contains("Notícias"))
                 textviewcabecalho.setText("Link inválido! Mantendo do último válido");
         } catch (Exception e) {
@@ -188,10 +193,8 @@ public class MainActivity extends Activity {
 
     }
 
-
     private void showUserSettings() {
-        SharedPreferences sharedPrefs = PreferenceManager
-                .getDefaultSharedPreferences(this);
+
 
         Editor editor = sharedPrefs.edit();
 
@@ -202,12 +205,17 @@ public class MainActivity extends Activity {
         settingsTextView.setText(builder.toString());
 
 
-        if (sharedPrefs.getString("num", null) != null)
-            maxQuant = Integer.parseInt(sharedPrefs.getString("num", null));
-        if (maxQuant < 0)
-            maxQuant = 0;
-        if (maxQuant > 40)
-            maxQuant = 40;
+        check_url_numeros();
+    }
+        private void check_url_numeros (){
+
+            if (sharedPrefs.getString("num", null) != null)
+                maxQuant = Integer.parseInt(sharedPrefs.getString("num", null));
+            if (maxQuant < 0)
+                maxQuant = 0;
+            if (maxQuant > 40)
+                maxQuant = 40;
+        // Assunto
 
         if(sharedPrefs.getBoolean("checkbox_preference_1",true))
             URL=getString(R.string.link1);
@@ -231,22 +239,130 @@ public class MainActivity extends Activity {
             URL=getString(R.string.link9);
         if(sharedPrefs.getBoolean("checkbox_preference_10",true))
             URL=getString(R.string.link10);
-        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
-            URL=getString(R.string.link2);
-        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
-            URL=getString(R.string.link2);
-        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
-            URL=getString(R.string.link2);
-        if(sharedPrefs.getBoolean("checkbox_preference_2",true))
-            URL=getString(R.string.link2);
+        if(sharedPrefs.getBoolean("checkbox_preference_11",true))
+            URL=getString(R.string.link11);
+        if(sharedPrefs.getBoolean("checkbox_preference_12",true))
+            URL=getString(R.string.link12);
+        if(sharedPrefs.getBoolean("checkbox_preference_13",true))
+            URL=getString(R.string.link13);
+        if(sharedPrefs.getBoolean("checkbox_preference_14",true))
+            URL=getString(R.string.link14);
+        if(sharedPrefs.getBoolean("checkbox_preference_15",true))
+            URL=getString(R.string.link15);
+        if(sharedPrefs.getBoolean("checkbox_preference_16",true))
+            URL=getString(R.string.link16);
 
-
-
+        // Região
 
         if(sharedPrefs.getBoolean("checkbox_preference_regiao_1",true))
             URL=getString(R.string.link_regiao1);
         if(sharedPrefs.getBoolean("checkbox_preference_regiao_2",true))
             URL=getString(R.string.link_regiao2);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_3",true))
+            URL=getString(R.string.link_regiao3);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_4",true))
+            URL=getString(R.string.link_regiao4);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_5",true))
+            URL=getString(R.string.link_regiao5);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_6",true))
+            URL=getString(R.string.link_regiao6);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_7",true))
+            URL=getString(R.string.link_regiao7);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_8",true))
+            URL=getString(R.string.link_regiao8);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_9",true))
+            URL=getString(R.string.link_regiao9);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_10",true))
+            URL=getString(R.string.link_regiao10);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_11",true))
+            URL=getString(R.string.link_regiao11);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_12",true))
+            URL=getString(R.string.link_regiao12);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_13",true))
+            URL=getString(R.string.link_regiao13);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_14",true))
+            URL=getString(R.string.link_regiao14);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_15",true))
+            URL=getString(R.string.link_regiao15);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_16",true))
+            URL=getString(R.string.link_regiao16);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_17",true))
+            URL=getString(R.string.link_regiao17);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_18",true))
+            URL=getString(R.string.link_regiao18);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_19",true))
+            URL=getString(R.string.link_regiao19);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_20",true))
+            URL=getString(R.string.link_regiao20);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_21",true))
+            URL=getString(R.string.link_regiao21);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_22",true))
+            URL=getString(R.string.link_regiao22);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_23",true))
+            URL=getString(R.string.link_regiao23);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_24",true))
+            URL=getString(R.string.link_regiao24);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_25",true))
+            URL=getString(R.string.link_regiao25);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_26",true))
+            URL=getString(R.string.link_regiao26);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_27",true))
+            URL=getString(R.string.link_regiao27);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_28",true))
+            URL=getString(R.string.link_regiao28);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_29",true))
+            URL=getString(R.string.link_regiao29);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_30",true))
+            URL=getString(R.string.link_regiao30);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_31",true))
+            URL=getString(R.string.link_regiao31);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_32",true))
+            URL=getString(R.string.link_regiao32);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_33",true))
+            URL=getString(R.string.link_regiao33);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_34",true))
+            URL=getString(R.string.link_regiao34);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_35",true))
+            URL=getString(R.string.link_regiao35);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_36",true))
+            URL=getString(R.string.link_regiao36);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_37",true))
+            URL=getString(R.string.link_regiao37);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_38",true))
+            URL=getString(R.string.link_regiao38);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_39",true))
+            URL=getString(R.string.link_regiao39);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_40",true))
+            URL=getString(R.string.link_regiao40);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_41",true))
+            URL=getString(R.string.link_regiao41);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_42",true))
+            URL=getString(R.string.link_regiao42);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_43",true))
+            URL=getString(R.string.link_regiao43);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_44",true))
+            URL=getString(R.string.link_regiao44);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_45",true))
+            URL=getString(R.string.link_regiao45);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_46",true))
+            URL=getString(R.string.link_regiao46);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_47",true))
+            URL=getString(R.string.link_regiao47);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_48",true))
+            URL=getString(R.string.link_regiao48);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_49",true))
+            URL=getString(R.string.link_regiao49);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_50",true))
+            URL=getString(R.string.link_regiao50);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_51",true))
+            URL=getString(R.string.link_regiao51);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_52",true))
+            URL=getString(R.string.link_regiao52);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_53",true))
+            URL=getString(R.string.link_regiao53);
+        if(sharedPrefs.getBoolean("checkbox_preference_regiao_54",true))
+            URL=getString(R.string.link_regiao54);
+
         System.out.println(URL);
 
     }
